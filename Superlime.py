@@ -34,6 +34,7 @@ class Superlime(sublime_plugin.EventListener):
 						.replace("Mac ", "mac") \
 						.replace("KOI8-", "koi8_") \
 						.replace("UTF-16 ", "utf_16_") \
+						.replace("UTF-8 with BOM", "utf_8_sig") \
 						.replace("UTF-8 ", "utf_8") \
 						.lower()
 			try:
